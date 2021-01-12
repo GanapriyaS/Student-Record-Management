@@ -175,7 +175,7 @@ void createRecord(){
 int checkRoll(int rollno){
     struct student stu;
     FILE *file;
-    file=fopen("student.txt","r");
+    file=fopen("student.txt","a+");
     if(file==NULL)
     {
       printf("ERROR,FILE CANNOT BE OPENED!!!");
