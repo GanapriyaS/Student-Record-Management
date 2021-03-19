@@ -2,7 +2,7 @@
 
 Student Record Management project done using c language with help of files.
 
-Record student name,studetn roll no,department ,semester, subjects enrolled and marks respectively.
+Record student name,student roll no,department ,semester, subjects enrolled and marks respectively.
 Total, average,grade and result are calculated and stored in a file respectively
 
 FUNCTIONS 
