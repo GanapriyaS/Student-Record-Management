@@ -40,15 +40,15 @@ void getstu(struct student *s){
   int total=0,no;
   fflush(stdin);
   printf("ENTER THE STUDENT NAME:");
-  scanf("%s",&s->name);
+  scanf("%s",s->name);
   printf("ENTER THE DEPARTMENT NAME:");
-  scanf("%s",&s->dep);
+  scanf("%s",s->dep);
   printf("ENTER THE CURRENT SEM:");
   scanf("%d",&s->sem);
   printf("ENTER THE SUBJECT ENROLLED:\n");
   for(int i=0;i<5;i++){
     printf("SUBJECT %d:",i+1);
-    scanf("%s",&s->subName[i]);
+    scanf("%s",s->subName[i]);
   }
   printf("ENTER THE MARKS SUBJECTWISE:\n");
   for(int i=0;i<5;i++){
